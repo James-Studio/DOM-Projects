@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'>
+    <title>Review</title>
+</head>
+
+<body>
+    <nav>
+        <div class="kirby_nav">
+            <div class="side_btn_div">
+                <button id="side_btn"><i class="fa fa-bars"></i></button>
+            </div>
+            <!-- Introduction -->
+            <ul class="intro_nav">
+                <li class="intro_list" >About</li>
+                <li class="intro_list">Intro</li>
+                <li class="intro_list">Motivation</li>
+            </ul>
+            <!-- social accounts -->
+            <ul class="social_nav">
+                <li class="social_list" >
+                    <i class="fa fa-facebook"></i>
+                </li>
+                <li class="social_list">
+                    <i class="fa fa-linkedin"></i>
+                </li>
+                <li class="social_list">
+                    <i class="fa fa-github"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="whole_site">
+        <aside class="sidebar">
+            <div id="sidebar_close">
+                <button id="close_btn"><i class="fa fa-times"></i></button>
+            </div>
+            <ul class="sidebar_nav">
+                <li class="sidebar_list" >About</li>
+                <li class="sidebar_list">Intro</li>
+                <li class="sidebar_list">Motivation</li>
+            </ul>
+        </aside>
+        <section class="head_int">
+            <div class="title">
+                <h1 id="meb_title">Our Members</h1>
+            </div>
+            <article class="intro_block">
+                <div class="author_name" id="author_id">JAMES</div>
+                <div class="kirby_block">
+                    <img id="face" alt="Image is missing!" >
+                </div>
+                
+                <div id="content"></div>
+                <div class="btn_home">
+                    <!--Origin of icons : https://fontawesome.com/v4/icons/-->
+                    <button class="pair_btn" id="left_btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                    <button class="pair_btn" id="right_btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="./src/kirby.js"></script>
+</body>
+
+</html>
